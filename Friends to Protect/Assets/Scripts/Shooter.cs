@@ -29,5 +29,6 @@ public class Shooter : MonoBehaviour
 			var bulletObj = Instantiate(bullet, centerOfLens, Quaternion.identity) as GameObject;
 			elapsedTime = 0f;
 		}
+		
 	}
 }

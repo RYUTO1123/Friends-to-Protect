@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Spawn : MonoBehaviour
+public class Spawn2 : MonoBehaviour
 {
 	//　出現させる敵を入れておく
 	[SerializeField] GameObject[] enemys;
@@ -47,7 +47,7 @@ public class Spawn : MonoBehaviour
 		//　出現させる敵をランダムに選ぶ
 		var randomValue = Random.Range(0, enemys.Length);
 		//　敵の向きをランダムに決定
-		var randomRotationY = Random.value * 0f;
+		var randomRotationY = 180f;
 
 		GameObject.Instantiate(enemys[randomValue], transform.position, Quaternion.Euler(0f, randomRotationY, 0f));
 
