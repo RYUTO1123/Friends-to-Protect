@@ -639,7 +639,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 540824008}
+      - m_Target: {fileID: 2040200795}
         m_MethodName: PushGoToMainButton
         m_Mode: 1
         m_Arguments:
@@ -699,6 +699,7 @@ GameObject:
   - component: {fileID: 2040200793}
   - component: {fileID: 2040200792}
   - component: {fileID: 2040200791}
+  - component: {fileID: 2040200795}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -787,3 +788,15 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &2040200795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040200790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2833fcb6daa925d4eaa6d9ebf2fc0f71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

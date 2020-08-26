@@ -14,6 +14,7 @@ public class PauseScript3 : MonoBehaviour
     //　アイテムメニューパネル
     [SerializeField]
     private GameObject itemPanel;
+   
 
     public void StopGame()
     {
