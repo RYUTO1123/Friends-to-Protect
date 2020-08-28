@@ -13,8 +13,10 @@ public class Shooter : MonoBehaviour
 	[SerializeField] private float waitTime = 0.1f;
 	//　経過時間
 	private float elapsedTime = 0f;
+	
 
-	void Update()
+    
+    void Update()
 	{
 		elapsedTime += Time.deltaTime;
 		if (elapsedTime < waitTime)
@@ -31,4 +33,6 @@ public class Shooter : MonoBehaviour
 		}
 		
 	}
+
+	
 }
