@@ -72,7 +72,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2318337928875752843}
   - component: {fileID: 988721591156614334}
-  - component: {fileID: 1808383316513530814}
   - component: {fileID: 5507332976181744403}
   - component: {fileID: -721477101543362910}
   - component: {fileID: -2031346960301609021}
@@ -167,19 +166,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.0033519072, y: 0.0018402562, z: 0.005284955}
     m_Extent: {x: 0.024135564, y: 0.040505648, z: 0.011793262}
   m_DirtyAABB: 0
---- !u!114 &1808383316513530814
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1618830523493437336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e212696118557e24a9a80e4cb8630257, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentHealth: 50
 --- !u!114 &5507332976181744403
 MonoBehaviour:
   m_ObjectHideFlags: 0

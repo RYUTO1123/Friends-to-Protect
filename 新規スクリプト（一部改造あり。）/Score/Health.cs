@@ -8,7 +8,7 @@ public class Health : MonoBehaviour
 
    
     // 体力値を格納する変数（定数値 100）
-    public const int maxHealth = 50;
+    public const int maxHealth = 100;
     // 現在の体力値を格納する変数（初期値は maxHealth）
     public int currentHealth = maxHealth;
 
